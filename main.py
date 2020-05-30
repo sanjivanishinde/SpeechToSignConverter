@@ -7,6 +7,8 @@ import os
 import tensorflow as tf 
 from keras.models import load_model
 
+
+
 from wordsegment import load,segment
 
 cap = cv2.VideoCapture(0)
